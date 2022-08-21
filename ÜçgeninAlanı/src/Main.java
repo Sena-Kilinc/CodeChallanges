@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        //3 kenarı verilen üçgenin alanını bulma
         Scanner input = new Scanner(System.in);
         double a,b,c,u,alan;
         System.out.println("1.Kenarı giriniz :");
