@@ -28,7 +28,7 @@ public class Main {
                 normalCost-=discount;
                 normalCost *=2;
             }
-            System.out.print("Total amount: "+normalCost);
+            System.out.print("Total amount: "+normalCost +" TL");
         }else{
             System.out.println("Your information is wrong please try again.");
         }
