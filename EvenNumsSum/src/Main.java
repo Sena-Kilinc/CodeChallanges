@@ -11,7 +11,6 @@ public class Main {
             if (i%3==0 && i%4==0){
                 total += i;
                 count++;
-                System.out.println(i);
             }
         }
         avg=total/count;
