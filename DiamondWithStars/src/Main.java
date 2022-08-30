@@ -17,15 +17,13 @@ public class Main {
         }
 
         for (int i = (n/2+1); i >=1; i--) {
-            for (int k = 1; k <= (n/2+1 - i); k++) {
+            for (int j = 1; j <= (n/2+1 - i); j++) {
                 System.out.print(" ");
             }
-            for (int j = 1; j <= (2 * i) - 1; j++) {
+            for (int k = 1; k <= (2 * i) - 1; k++) {
                 System.out.print("*");
             }
             System.out.println();
         }
-
-
     }
 }
