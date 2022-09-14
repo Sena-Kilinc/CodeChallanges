@@ -45,7 +45,7 @@ public class Student {
         this.physAvg = this.physics.verbalNote * 0.2 + this.physics.note * 0.8;
         this.mathAvg = this.math.verbalNote * 0.2 + this.math.note * 0.8;
         this.chemAvg = this.chem.verbalNote * 0.2 + this.chem.note * 0.8;
-        this.avg=(physAvg+mathAvg+chemAvg)/3;
+        this.avg=(this.physAvg+this.mathAvg+this.chemAvg)/3;
     }
 
     public boolean isCheckPass(){
