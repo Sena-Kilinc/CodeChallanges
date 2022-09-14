@@ -52,6 +52,16 @@ public class Student {
         calcAvg();
         return this.avg>55;
     }
+
+    public void printNote(){
+        System.out.println("=========================");
+        System.out.println("Öğrenci : " + this.name);
+        System.out.println("Matematik Notu : " + this.mathAvg);
+        System.out.println("Fizik Notu : " + this.physAvg);
+        System.out.println("Kimya Notu : " + this.chemAvg);
+    }
+
+
     public void isPass(){
         if (this.math.note == 0 || this.physics.note==0 || this.chem.note==0){
             System.out.println("Please enter the notes correctly.");
@@ -67,11 +77,5 @@ public class Student {
 
         }
     }
-    public void printNote(){
-        System.out.println("=========================");
-        System.out.println("Öğrenci : " + this.name);
-        System.out.println("Matematik Notu : " + this.mathAvg);
-        System.out.println("Fizik Notu : " + this.physAvg);
-        System.out.println("Kimya Notu : " + this.chemAvg);
-    }
+
 }
