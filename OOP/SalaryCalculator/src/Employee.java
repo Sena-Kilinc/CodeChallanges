@@ -26,7 +26,7 @@ public class Employee {
     }
 
     public void bonus(){
-        if (this.hireYear>=40){
+        if (this.workHours>=40){
             this.bonus = (this.workHours -40) *30;
         }
     }
